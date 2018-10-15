@@ -18,8 +18,6 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-streaming" % "2.3.2" % "provided",
   "org.apache.spark" %% "spark-mllib-local" % "2.3.2"
 )
-// Should there be a need for machine learning the below dependency should be added to the above list
-// "org.apache.spark" %% "spark-mllib" % "1.6.0-typesafe-001"
 
 scalacOptions ++= Seq("-unchecked", "-deprecation", "-Xcheckinit", "-encoding", "utf8", "-feature")
 
