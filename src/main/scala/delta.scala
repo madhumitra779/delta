@@ -88,22 +88,6 @@ object delta {
     This is free software, and you are welcome to redistribute it
     under certain conditions.""")
   }
-
-  //TODO
-  // write a generic exception handler; which would take any exception as an input
-  // and henceforth handles the exception
-  /*
-  def errorHandler(instrumentName: String): Unit = {
-    case indexEX: java.lang.ArrayIndexOutOfBoundsException =>
-      println("Can't touch touch this " + instrumentName
-        + " try later with  $ sbt \"run " + instrumentName + "\"")
-    case formatNUMEx: java.lang.NumberFormatException => println("NumberFormatException has occurred for "
-        + instrumentName.toString + "; try running scala> UtilitiesAdv(" + instrumentName + ").showAllAttributes")
-    case charsetEx: java.nio.charset.UnmappableCharacterException => println("Unmappablecharacterexception has occurred for "
-        + instrumentName.toString + "; try running scala> UtilitiesAdv(" + instrumentName + ").showAllAttributes")
-    case runEx: java.lang.RuntimeException => println("Parser failure encountered for " + instrumentName)
-  }
-   */
 }
 
 
