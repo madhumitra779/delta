@@ -1,6 +1,6 @@
 # Delta - Simplified Option Price Retriever
 
-A simple application which uses *https://query1.finance.yahoo.com/v7/finance/options* to search and fetch the option price from the S&P500 (and the last closing equity price) which has the highest volume.  
+A simple application which uses *https://query1.finance.yahoo.com/v7/finance/options* to search and fetch the option price from the **S&P500** (and the last closing equity price) which has the highest volume.  
 
 * * *
 ### REQUIREMENTS:
