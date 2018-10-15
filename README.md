@@ -23,7 +23,7 @@ gives the result for first 5 entities in values.txt
 ```$ sbt "run RDS-A CVX"```
 gives the result for Royal Dutch Shell and Chevron. The pattern is extensible, e.g. `$ sbt "run RDS-A CVX SNAP AAPL [...]"`  
 #### output for `$ sbt "run RDS-A CVX"`  
-![alt text](ss.jpg "RDS-A CVX")
+![output jpeg](ss.jpg "RDS-A CVX")
 
 ```$ sbt run```
 gives the result for first 10 instruments of the **S&P 500**.  
