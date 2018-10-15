@@ -1,0 +1,7 @@
+.default-color0.chart-line-symbol {
+    -fx-background-radius: 0.0px;
+    -fx-padding: 0.0px;
+}
+.thick-chart .chart-series-line {
+    -fx-stroke-width: 2px;
+}
